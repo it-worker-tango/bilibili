@@ -18,7 +18,7 @@
 
      我的目录结构：
 
-     ![WX20200229-193459](/Users/tango/Documents/专栏/截图/WX20200229-193459.png)
+     ![WX20200229-193459](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-193459.png?raw=true)
 
      进入env的目录下，执行如下命令注意**venv**和“.”之间有个空格：
 
@@ -28,7 +28,7 @@
 
      运行后的效果如下：
 
-     ![WX20200229-194136](/Users/tango/Documents/专栏/截图/WX20200229-194136.png)
+     ![WX20200229-194136](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-194136.png?raw=true)
 
    - 激活虚拟环境
 
@@ -44,7 +44,7 @@
      deactivate
      ```
 
-     ![WX20200229-195229](/Users/tango/Documents/专栏/截图/WX20200229-195229.png)
+     ![WX20200229-195229](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-195229.png?raw=true)
 
 ## 安装爬虫常用的包
 
@@ -58,7 +58,7 @@
 
   > 为了安装速度能快一点，我们使用了清华大学的镜像源（-i 后面的就是）
 
-  ![WX20200229-200127](/Users/tango/Documents/专栏/截图/WX20200229-200127.png)
+  ![WX20200229-200127](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-200127.png?raw=true)
 
 - bs4（BeautifulSoup）
 
@@ -66,7 +66,7 @@
   pip install bs4 -i https://pypi.tuna.tsinghua.edu.cn/simple
   ```
 
-  ![WX20200229-200221](/Users/tango/Documents/专栏/截图/WX20200229-200221.png)
+  ![WX20200229-200221](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-200221.png?raw=true)
 
 ## Python基础语法快速复习
 
@@ -240,7 +240,7 @@
          print(name)
        ```
 
-       ![WX20200229-222212](/Users/tango/Documents/专栏/截图/WX20200229-222212.png)
+       ![WX20200229-222212](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-222212.png?raw=true)
 
        我们看到，列表里面的名字依次被打印了出来
 
@@ -255,7 +255,7 @@
            i -= 1
      ```
        
-       ![WX20200229-222502](/Users/tango/Documents/专栏/截图/WX20200229-222502.png)
+       ![WX20200229-222502](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-222502.png?raw=true)
        
        while后面接的也是表达式，当条件满足时就会执行。
        
