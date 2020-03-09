@@ -18,7 +18,7 @@
 
      我的目录结构：
 
-     ![WX20200229-193459](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-193459.png?raw=true)
+     ![WX20200229-193459](http://images.it-worker.club/WX20200229-193459.png)
 
      进入env的目录下，执行如下命令注意**venv**和“.”之间有个空格：
 
@@ -28,7 +28,7 @@
 
      运行后的效果如下：
 
-     ![WX20200229-194136](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-194136.png?raw=true)
+     ![WX20200229-194136](http://images.it-worker.club/WX20200229-194136.png)
 
    - 激活虚拟环境
 
@@ -44,7 +44,7 @@
      deactivate
      ```
 
-     ![WX20200229-195229](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-195229.png?raw=true)
+     ![WX20200229-195229](http://images.it-worker.club/WX20200229-195229.png)
 
 ## 安装爬虫常用的包
 
@@ -58,7 +58,7 @@
 
   > 为了安装速度能快一点，我们使用了清华大学的镜像源（-i 后面的就是）
 
-  ![WX20200229-200127](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-200127.png?raw=true)
+  ![WX20200229-200127](http://images.it-worker.club/WX20200229-200127.png)
 
 - bs4（BeautifulSoup）
 
@@ -66,7 +66,7 @@
   pip install bs4 -i https://pypi.tuna.tsinghua.edu.cn/simple
   ```
 
-  ![WX20200229-200221](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-200221.png?raw=true)
+  ![WX20200229-200221](http://images.it-worker.club/WX20200229-200221.png)
 
 ## Python基础语法快速复习
 
@@ -94,63 +94,59 @@
      - 字符串切片
 
        ```python
-  word = "人生苦短，我用Python"
-       # 需要将苦短提取出来
-       word[2:4]
+    word = "人生苦短，我用Python"
+       word[2:4] #需要将苦短提取出来
        ```
-     
-       > 注意切片是包含左边，不包含右边的数值。
-
-       也可以从右边数
-
-       ```python
-# 提取Python
-       word[-6:]
-  ```
        
+     > 注意切片执行时是包含左边，不包含右边的数值。
        
-     
+也可以从右边数
+       
+```python
+        word[-6:] #提取Python
+       ```
+       
      - 拼接， 直接用加号就可以将多个字符串拼接在一起
-
+     
        ```python
-  name = "路飞"
+       name = "路飞"
        word = "人生苦短，我用Python"
-  name + word
+       name + word
        ```
      
      - 格式化字符串。有的时候我们的字符串中某个内容需要变动，这个时候就可以私用format()函数了。
      
        ```python
-  name = "路飞"
+       name = "路飞"
        msg = "你好啊，{}".format(name)
-  ```
+       ```
      
-  > 更多的用法，我们在实际代码中再为大家介绍。
+       > 更多的用法，我们在实际代码中再为大家介绍。
      
    - List（列表）
    
      python中用 [ ] 来表示列表
-
+   
      ```python
-  name_list = ['路飞', '索隆', '娜美']
+     name_list = ['路飞', '索隆', '娜美']
      ```
-
+   
    - Dictionary（字典）
-
+   
      字典是值包含由键和值组成的数据集合
-
+   
      ```python
      info = {'name':'路飞', 'age':18}
      ```
-
+   
      > 要注意的是键不可以重复，而值是可以的。
-
+   
    - Tuple（元组）
-
+   
      它和列表很相似，用（）来表示。但是它一旦船家女之后就不能修改了。
    
      ```python
-  t = ('a', 'b')
+      t = ('a', 'b') 
      ```
 
 3. 函数
@@ -240,7 +236,7 @@
          print(name)
        ```
 
-       ![WX20200229-222212](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-222212.png?raw=true)
+       ![WX20200229-222212](http://images.it-worker.club/WX20200229-222212.png)
 
        我们看到，列表里面的名字依次被打印了出来
 
@@ -253,16 +249,16 @@
        while i > 0:
          print(i)
            i -= 1
-     ```
+       ```
        
-       ![WX20200229-222502](https://raw.githubusercontent.com/it-worker-tango/bilibili/master/截图/WX20200229-222502.png?raw=true)
+       ![WX20200229-222502](http://images.it-worker.club/WX20200229-222502.png)
        
        while后面接的也是表达式，当条件满足时就会执行。
        
        > 注意一定是一个可以结束的表达式，否则会进入死循环。这里的 i -= 1，就是为了让i 每次都减1，这样当i 小于0的时候就不会再执行了。
-       
-       - 我们用break可以提前结束循环
-       - 用continue可以跳过某次循环，具体用法我们再后面的爬虫项目中会和大家慢慢介绍。
+       >
+       > - 我们用break可以提前结束循环
+       > - 用continue可以跳过某次循环，具体用法我们再后面的爬虫项目中会和大家慢慢介绍。
 
 5. 类
 
